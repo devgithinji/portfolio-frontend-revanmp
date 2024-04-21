@@ -1,0 +1,48 @@
+.summary {
+    background-color: var(--white);
+    padding-block: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 90%;
+    margin-inline: auto;
+}
+
+.summaryItem {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed var(--primary);
+    position: relative;
+    padding-block: 20px;
+    border-radius: var(--radius-10);
+}
+
+.bigText {
+    font-size: var(--fs-4);
+    font-weight: bold;
+}
+
+.descText {
+    color: var(--gray);
+    font-size: var(--fs-5);
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    color: var(--white);
+    position: absolute;
+    bottom: 80%;
+    left: 30px;
+}
+
