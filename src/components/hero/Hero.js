@@ -27,7 +27,9 @@ const Hero = () => {
                     <div className={styles.heroImgContainer}>
                         <img src="/heroImg.png" className={styles.heroImage} alt="hero image"/>
                         <div className={styles.heroImgBtm}>
-                            <BsArrowUpRight className={styles.heroImgIcon}/>
+                            <div className={styles.heroIconContainer}>
+                                <BsArrowUpRight className={styles.heroImgIcon}/>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.followMe}>
