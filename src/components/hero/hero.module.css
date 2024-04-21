@@ -1,0 +1,101 @@
+.hero {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    padding-block: 10px;
+}
+
+/*content section*/
+
+.contentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heroMainText {
+    font-size: var(--fs-4);
+}
+
+.heroMainText span {
+    display: inline;
+    color: var(--primary);
+}
+
+.contentSection p {
+    font-family: var(--ff-montseratt), serif;
+    font-weight: 500;
+}
+
+.btnSection {
+    display: flex;
+    gap: 10px;
+}
+
+/*photo section*/
+.photoSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.followMe {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    flex: 1;
+}
+
+.followMe span {
+    color: var(--primary);
+    writing-mode: vertical-lr;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroImgContainer {
+    position: relative;
+    background-color: var(--primary);
+    border-radius: var(--radius-10);
+    flex: 4;
+}
+
+.heroImage {
+    object-fit: contain;
+    width: 100%;
+}
+
+.heroImgBtm {
+    height: 90px;
+    width: 90px;
+    background-color: var(--primary-200);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    border-radius: 50% 50% var(--radius-10) 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-3);
+    cursor: pointer;
+}
+
+
+.heroImgIcon {
+    font-size: 35px;
+    transform: rotate(90deg);
+    color: var(--primary);
+}
